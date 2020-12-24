@@ -1,0 +1,5 @@
+﻿CREATE TABLE Tickers
+(
+	Id SERIAL NOT NULL,
+	Ticker VARCHAR(6) PRIMARY KEY
+);
