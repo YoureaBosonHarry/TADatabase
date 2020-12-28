@@ -1,0 +1,8 @@
+﻿CREATE FUNCTION GetTickers() 
+RETURNS SETOF VARCHAR(6)
+LANGUAGE plpgsql
+AS $$
+BEGIN 
+RETURN QUERY SELECT Ticker FROM Tickers;
+END;
+$$;
