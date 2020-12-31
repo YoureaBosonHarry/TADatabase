@@ -75,5 +75,6 @@
     <Build Include="Tables\DailyInfo.sql" />
     <Build Include="Tables\Tickers.sql" />
     <Build Include="StoredProcedures\GetTickers.sql" />
+    <Build Include="StoredProcedures\GetDailyInfoByTicker.sql" />
   </ItemGroup>
 </Project>

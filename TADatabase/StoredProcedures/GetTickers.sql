@@ -1,8 +1,8 @@
 ﻿CREATE FUNCTION GetTickers() 
-RETURNS TABLE (StockTicker VARCHAR(6))
+RETURNS TABLE (Ticker VARCHAR(6))
 LANGUAGE plpgsql
 AS $$
 BEGIN 
-RETURN QUERY SELECT Ticker FROM Tickers;
+RETURN QUERY SELECT Tickers.Ticker FROM Tickers;
 END;
 $$;
