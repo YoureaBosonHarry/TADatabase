@@ -76,5 +76,8 @@
     <Build Include="Tables\Tickers.sql" />
     <Build Include="StoredProcedures\GetTickers.sql" />
     <Build Include="StoredProcedures\GetDailyInfoByTicker.sql" />
+    <Build Include="StoredProcedures\GetDailyRSI.sql" />
+    <Build Include="StoredProcedures\InsertDailyRsi.sql" />
+    <Build Include="Tables\DailyRsi.sql" />
   </ItemGroup>
 </Project>
