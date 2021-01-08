@@ -62,6 +62,7 @@
     <Folder Include="obj\Debug" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Tables" />
+    <Folder Include="Schemas" />
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\TADatabase.sqlprojAssemblyReference.cache" />
