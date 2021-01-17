@@ -1,0 +1,1 @@
+﻿CREATE FUNCTION MarketData.InsertTicker("_Ticker" VARCHAR(6)) RETURNS VOID LANGUAGE plpgsql AS $$ BEGIN INSERT INTO MarketData.Tickers (Ticker) VALUES ("_Ticker"); END; $$;
