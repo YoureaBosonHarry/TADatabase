@@ -63,6 +63,11 @@
     <Folder Include="StoredProcedures" />
     <Folder Include="Tables" />
     <Folder Include="Schemas" />
+    <Folder Include="StoredProcedures\TechnicalIndicators" />
+    <Folder Include="StoredProcedures\MarketData" />
+    <Folder Include="Tables\TechnicalIndicators" />
+    <Folder Include="Tables\MarketData" />
+    <Folder Include="Databases" />
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\TADatabase.sqlprojAssemblyReference.cache" />
@@ -71,14 +76,20 @@
     <None Include="TADatabase.sqlproj.user" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="StoredProcedures\InsertDailyInfo.sql" />
-    <Build Include="StoredProcedures\InsertTicker.sql" />
-    <Build Include="Tables\DailyInfo.sql" />
-    <Build Include="Tables\Tickers.sql" />
-    <Build Include="StoredProcedures\GetTickers.sql" />
-    <Build Include="StoredProcedures\GetDailyInfoByTicker.sql" />
-    <Build Include="StoredProcedures\GetDailyRSI.sql" />
-    <Build Include="StoredProcedures\InsertDailyRsi.sql" />
-    <Build Include="Tables\DailyRsi.sql" />
+    <Build Include="Schemas\market_data.sql" />
+    <Build Include="Schemas\technical_indicators.sql" />
+    <Build Include="StoredProcedures\TechnicalIndicators\GetDailyRSI.sql" />
+    <Build Include="StoredProcedures\TechnicalIndicators\InsertDailyRsi.sql" />
+    <Build Include="StoredProcedures\MarketData\GetDailyInfoByTicker.sql" />
+    <Build Include="StoredProcedures\MarketData\GetTickers.sql" />
+    <Build Include="StoredProcedures\MarketData\InsertDailyInfo.sql" />
+    <Build Include="Tables\TechnicalIndicators\DailyRsi.sql" />
+    <Build Include="Tables\MarketData\DailyInfo.sql" />
+    <Build Include="Dockerfile" />
+    <Build Include="Databases\TADatabase.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="StoredProcedures\MarketData\InsertTicker.sql" />
+    <Build Include="Tables\MarketData\Tickers.sql" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿CREATE TABLE Tickers
+﻿CREATE TABLE MarketData.Tickers
 (
 	Id SERIAL NOT NULL,
 	Ticker VARCHAR(6) PRIMARY KEY
